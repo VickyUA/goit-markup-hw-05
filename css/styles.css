@@ -765,6 +765,7 @@ background-color: var(--success)
     letter-spacing: 0.32px;
     margin-bottom: 16px;
     margin-top: 48px;
+    text-align: center;
 }
 
 
@@ -812,5 +813,33 @@ background-color: var(--success)
 
 .modal-form-input:focus + .modal-form-icon {
     fill: var(--primary-brand);
+}
+
+.modal-comment-input::placeholder {
+    color: rgba(46, 47, 66, 0.4);
+    opacity: 0;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-comment-input:focus::placeholder {
+    opacity: 1;
+}
+
+.modal-btn {
+    color: var(--white-background);
+    background-color: var(--primary-brand);
+    cursor: pointer;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding: 16px 32px;
+    border-radius: 4px;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    min-width: 169px;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
