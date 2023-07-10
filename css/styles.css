@@ -783,7 +783,7 @@ margin-right: 80px;
 }
 
 .modal {
-    padding: 24px;
+    padding: 72px 24px 24px 24px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -843,7 +843,6 @@ margin-right: 80px;
     line-height: 24px;
     letter-spacing: 0.32px;
     margin-bottom: 16px;
-    margin-top: 48px;
     text-align: center;
 }
 
