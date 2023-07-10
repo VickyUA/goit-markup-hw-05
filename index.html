@@ -426,6 +426,26 @@
             </li>
           </ul>
         </div>
+
+        <div class="subscribe">
+          <p class="subscribe-header">Subscribe</p>
+          <form class="subscribe-form" name="subscribe_form">
+            <label class="subscribe-form-label">
+              <input
+                class="subscribe-form-input"
+                type="email"
+                name="subscribe_form-email"
+                placeholder="E-mail"
+              />
+            </label>
+            <button class="subscribe-btn" type="submit">
+              Subscribe
+              <svg class="footer-btn-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
 
@@ -471,10 +491,26 @@
             <textarea
               class="modal-comment-input"
               name="textarea"
-              cols="42"
-              rows="10"
+              rows="7"
               placeholder="Text input"
             ></textarea>
+          </label>
+
+          <label class="modal-form-agreement">
+            <input
+              class="modal-form-checkbox visually-hidden"
+              type="checkbox"
+              name=""
+            />
+            <span class="modal-form-custom-checkbox">
+              <svg class="modal-form-checkbox-icon" width="10" height="8">
+                <use href="./images/icons.svg#icon-checked"></use>
+              </svg>
+            </span>
+            <span class="modal-form-agreement-desc"
+              >I accept the terms and conditions of the
+              <a class="modal-form-link" href="#">Privacy Policy</a></span
+            >
           </label>
 
           <button class="modal-btn" type="submit">Send</button>
