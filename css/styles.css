@@ -710,6 +710,8 @@ margin-right: 80px;
     letter-spacing: 0.48px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     outline: transparent;
+    line-height: 1.5;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 
 .subscribe-form-input:focus {
@@ -739,7 +741,6 @@ margin-right: 80px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: 16px;
 }
 
 .subscribe-btn:hover, .subscribe-btn:focus {
@@ -748,6 +749,7 @@ margin-right: 80px;
 
 .footer-btn-icon {
     fill: var(--white-background);
+    margin-left: 16px;
 }
 
 /**
