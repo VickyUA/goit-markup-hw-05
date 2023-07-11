@@ -976,13 +976,6 @@ margin-right: 80px;
     opacity: 1;
 }
 
-.modal-form-agreement-desc {
-    color: var(--subtle-text);
-    font-size: 12px;
-    letter-spacing: 0.48px;
-    user-select: none;
-}
-
 .modal-form-link {
     color: #4D5AE5;
     text-decoration: underline;
