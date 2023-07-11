@@ -935,7 +935,6 @@ margin-right: 80px;
 }
 
 .modal-form-agreement {
-    display: flex;
     align-items: center;
     margin-bottom: 24px;
     gap: 8px;
@@ -966,8 +965,7 @@ margin-right: 80px;
 }
 
 
-.modal-form-checkbox:checked + .modal-form-custom-checkbox {
-    border-color: var(--pressed-state);
+.modal-form-checkbox:checked + .modal-form-agreement .modal-form-custom-checkbox {
     border: none;
     background-color: var(--pressed-state);
     fill: var(--light);
