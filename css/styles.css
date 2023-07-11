@@ -896,6 +896,10 @@ margin-right: 80px;
     fill: var(--primary-brand);
 }
 
+.label-div-comment {
+    margin-bottom: 16px;
+}
+
 .modal-comment-input {
     width: 100%;
     height: 120px;
@@ -924,11 +928,20 @@ margin-right: 80px;
     opacity: 1;
 }
 
+.form-agreement-div {
+    margin-bottom: 24px;
+}
+
 .modal-form-agreement {
     display: flex;
     align-items: center;
     margin-bottom: 24px;
     gap: 8px;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: var(--subtle-text);
+    
 }
 
 .modal-form-checkbox {}
