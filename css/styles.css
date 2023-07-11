@@ -976,6 +976,10 @@ margin-right: 80px;
     opacity: 1;
 }
 
+.modal-form-agreement-desc {
+    user-select: none;
+}
+
 .modal-form-link {
     color: #4D5AE5;
     text-decoration: underline;
