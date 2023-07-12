@@ -981,6 +981,10 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
     border-color: var(--pressed-state);
 }
 
+.modal-form-checkbox:hover + .modal-form-agreement .modal-form-custom-checkbox {
+    border-color: var(--pressed-state);
+}
+
 .modal-form-link {
     color: #4D5AE5;
     text-decoration: underline;
